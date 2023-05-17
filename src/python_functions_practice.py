@@ -58,3 +58,11 @@ def number_to_short_month_name(number):
                 "Oct"]
 
     return month[number-1]
+
+def volume_of_cube(number):
+    
+    volume = number**3
+    return volume
+
+def reverse_string(string):
+    return string [::-1]
